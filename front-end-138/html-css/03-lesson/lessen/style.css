@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.menu__item {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.menu__img {
+  width: 80px;
+  height: 80px;
+}
