@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container"></div>
+      </header>
+      <!-- <section class="form-container">
+        <div class="container">
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form_item">
+              <label for="username">Повне Ім'я</label>
+              <input
+                class="form_item__label"
+                type="text"
+                name="username"
+                id="username"
+                value=""
+              />
+            </div>
+            <div class="form_item">
+              <label for="email"> Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Введите ваш email"
+                required
+              />
+            </div>
+            <div class="form_item">
+              <label for="userpass">Пароль</label>
+              <input type="password" id="userpass" name="userpass" value="" />
+            </div>
+            <div class="form_item">
+              <label for="userpass">Пароль ще раз</label>
+              <input type="password" id="userpass" name="userpass" value="" />
+            </div>
+            <div class="form_item">
+              <label for="">Стать:</label>
+              <div class="male_gender">
+                <label class="male_gender__p">
+                  <input type="radio" name="male" id="" />
+                  <p>чоловіча</p>
+                </label>
+                <label class="male_gender__p">
+                  <input type="radio" name="male" id="" />
+                  <p>жіноча</p>
+                </label>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="date_bersday">Дата народження:</label>
+              <div class="for_item__fix">
+                <input
+                  class="input_berthday"
+                  type="number"
+                  id="date_bersday"
+                  name="date_bersday"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="curs">Курс</label>
+              <div class="for_item__fix">
+                <select name="curs" id="">
+                  <option value="" disabled selected>Виберіть курс</option>
+                  <option value="fe">Front-End</option>
+                  <option value="be">Back-End</option>
+                  <option value="pm">Project Management</option>
+                  <option value="qm">QA Manual</option>
+                </select>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="adres"> Повна адреса</label>
+              <textarea
+                placeholder="Країні, регіон, місто/селище, вулиця"
+                name="adres"
+                id="adres"
+              ></textarea>
+            </div>
+            <div class="form_item">
+              <input type="checkbox" />
+              <label for="">я погоджуюсь з обробкою персональних даних</label>
+            </div>
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+          </form>
+        </div>
+      </section> -->
+      <form action="#" method="post" enctype="multipart/form-data" class="form">
+        <div class="form__row">
+          <div class="form__item">
+            <label for="username">Повне Ім'я</label>
+          </div>
+          <div class="form__item">
+            <input id="username" type="text" required />
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="form__item">
+            <label for="email"> Email:</label>
+          </div>
+
+          <div class="form__item">
+            <input type="email" name="email" id="email" required />
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="form__item">
+            <label for="userpass">Пароль</label>
+          </div>
+
+          <div class="form__item">
+            <input type="password" id="userpass" name="userpass" value="" />
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="form__item">
+            <label for="userpass">Пароль ще раз</label>
+          </div>
+
+          <div class="form__item">
+            <input type="password" id="userpass" name="userpass" value="" />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__item">
+            <label for="">Стать:</label>
+          </div>
+          <div class="form__item__male">
+            <label class="male_gender__p">
+              <input
+                class="form__item__gender__input"
+                type="radio"
+                name="male"
+                id=""
+              />
+              <p>чоловіча</p>
+            </label>
+            <label class="male_gender__p">
+              <input
+                class="form__item__gender__input"
+                type="radio"
+                name="male"
+                id=""
+              />
+              <p>жіноча</p>
+            </label>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__item">
+            <label for="date_bersday">Дата народження:</label>
+          </div>
+          <div class="form__item">
+            <input
+              class="form__item__input"
+              type="number"
+              id="date_bersday"
+              name="date_bersday"
+              value=""
+              required
+            />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__item">
+            <label for="curs">Курс</label>
+          </div>
+          <div class="form__item">
+            <select name="curs" id="">
+              <option value="" disabled selected>Виберіть курс</option>
+              <option value="fe">Front-End</option>
+              <option value="be">Back-End</option>
+              <option value="pm">Project Management</option>
+              <option value="qm">QA Manual</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__item form__item__adress">
+            <label for="adres"> Повна адреса</label>
+          </div>
+          <div class="form__item">
+            <textarea
+              class="form__item__textarea"
+              placeholder="Країні, регіон, місто/селище, вулиця"
+              name="adres"
+              id="adres"
+            ></textarea>
+          </div>
+        </div>
+        <div class="form__row__agreement">
+          <div class="form__item__agreement__flex">
+            <input class="form__item__agreement__flex__input" type="checkbox" />
+            <label for="">я погоджуюсь з обробкою персональних даних</label>
+          </div>
+        </div>
+        <div class="form__row__button">
+          <div class="form__item">
+            <button type="reset">Очистити форму</button>
+          </div>
+          <div class="form__item">
+            <button type="submit">Зареєструватися</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

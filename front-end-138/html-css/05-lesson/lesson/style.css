@@ -1,0 +1,88 @@
+.wrapper {
+  width: 1440px;
+  margin: auto;
+  height: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+}
+.form_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.male_gender {
+  display: flex;
+  width: 200px;
+}
+
+
+.for_item__fix {
+
+  max-width: 200px;
+}
+.input_berthday {
+  width: 30px;
+} */
+.form {
+  display: grid;
+  justify-content: center;
+  padding-top: 15%;
+  /* align-content: center; */
+}
+.form__row {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+.form__item {
+  padding: 10px 0;
+}
+.form__item__male {
+  display: flex;
+  justify-content: left;
+}
+.male_gender__p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+.form__item__gender__input {
+  margin-right: 5px;
+}
+.form__item__input {
+  max-width: 30px;
+}
+
+.form__item__adress {
+  display: flex;
+  align-items: flex-end;
+}
+.form__item__textarea {
+  height: 50px;
+  width: 180px;
+}
+.form__row__agreement {
+  display: grid;
+  grid-template-columns: 400px;
+}
+
+.form__item__agreement__flex {
+  display: flex;
+  /* justify-content: center; */
+}
+.form__item__agreement__flex__input {
+  margin-right: 5px;
+}
+
+.form__row__button {
+  display: flex;
+  justify-content: space-around;
+}
