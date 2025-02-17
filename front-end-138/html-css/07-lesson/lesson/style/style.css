@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* псевдо елементи */
+/* .title::before {
+  content: "😀";
+}
+.title::after {
+  content: "😀";
+}
+
+.title__2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: brown;
+} */
+
+.btn {
+  background-color: rgba(6, 178, 95, 1);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  min-width: 160px;
+  min-height: 40px;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: rgb(7, 155, 84);
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: rgba(6, 178, 95, 1);
+}
+
+.btn__1 {
+  background-color: #fff;
+  color: #06b25f;
+  border: #06b25f solid 2px;
+  border-radius: 10px;
+  min-width: 160px;
+  min-height: 40px;
+  transition: all 1s;
+}
+
+.btn__1:hover {
+  /* border: none; */
+  color: white;
+  background-color: #06b25f;
+  cursor: pointer;
+}
+
+.btn__1:active {
+  background-color: #06b25f;
+}

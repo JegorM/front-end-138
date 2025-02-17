@@ -1,0 +1,65 @@
+/* .wrapper {
+  height: 100vh;
+  1vh = 1% от экрана
+  background: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+sdfs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.wrapper-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+.boxc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100px;
+  background: red;
+  color: white;
+}
+.box:first-child {
+  order: 4;
+}
+.box:last-child {
+  order: -1;
+}

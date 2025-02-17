@@ -1,0 +1,13 @@
+.container__one {
+  color: #500cfd;
+}
+.container__two {
+  color: #ff001a;
+}
+.container__three {
+  color: #0cfd18;
+}
+/* если какойта клас перебивает стиль елемента то можно использовать !important */
+/* flex-flow: wrap-reverse column-reverse;
+align-content: space-between;
+justify-content: center; */
