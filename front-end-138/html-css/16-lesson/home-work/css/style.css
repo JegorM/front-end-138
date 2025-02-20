@@ -1,0 +1,183 @@
+:root {
+  --font-titel: "Nunito Sans";
+  --font-text: "Roboto";
+
+  --color-text: #16133d;
+  --color-link: #3db370;
+  --color-services: #7690a8;
+
+  --color-border-card1-3: #e5eaf4;
+  --color-border-card2: #3db370;
+
+  --background-footer-icon: #efeef3;
+
+  --color-blau-icon-1: #e1f4f5;
+  --color-blau-icon-2: #f4feff;
+  --color-blau-icon-3: #caeff2;
+  --color-blau-icon-4: #52c29d;
+
+  --color-green-icon-1: #d1e7ff;
+  --color-green-icon-2: #b9dcff;
+  --color-green-icon-3: #e8f3ff;
+  --color-white-icon: #ffff;
+  --color-green-icon-4: #007ffc;
+}
+
+body {
+  font-family: var(--font-text);
+  color: var(--color-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.hero__services {
+  color: var(--color-services);
+  font-size: 16px;
+  line-height: 21px;
+  padding-bottom: 15px;
+}
+.title {
+  font-family: var(--font-titel);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.sub__title {
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.link {
+  font-weight: 600;
+  line-height: 18.75px;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+/* ///////////////////////////// */
+/* class all */
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.hero__icon {
+  width: 38px;
+  height: 36px;
+
+  color: var(--color-link);
+  padding: 12px;
+  border: 1px solid #1565d81a;
+  border-radius: 16px;
+  transition: all 1s;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+/* class all end  */
+
+/* header */
+.header {
+  padding: 22.5px 0;
+  border-bottom: 1px solid #efeef3;
+}
+
+/* header end */
+
+/* hero */
+
+.container__hero {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero__cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  border: 1px solid var(--color-border-card1-3);
+  border-radius: 8px;
+}
+
+.ecommercy__card {
+  border-color: var(--color-border-card2);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Hero end */
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  background-color: var(--color-text);
+}
+
+.container__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__logo {
+  max-width: 200px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: var(--background-footer-icon);
+  border-radius: 5px;
+}
+
+/* Footer end  */
+
+.hero__icon:hover .color--1 {
+  fill: var(--color-blau-icon-1);
+}
+
+.hero__icon:hover .color--2 {
+  fill: var(--color-blau-icon-2);
+}
+.hero__icon:hover .color--3 {
+  fill: var(--color-blau-icon-3);
+}
+.hero__icon:hover .color--4 {
+  fill: var(--color-blau-icon-4);
+}
+
+.hero__icon:hover .color-1 {
+  fill: var(--color-green-icon-1);
+}
+.hero__icon:hover .color-2 {
+  fill: var(--color-green-icon-2);
+}
+.hero__icon:hover .color-3 {
+  fill: var(--color-green-icon-3);
+}
+.hero__icon:hover .color-4 {
+  fill: var(--color-green-icon-4);
+}
+.hero__icon:hover .color-white {
+  fill: var(--color-white-icon);
+}
