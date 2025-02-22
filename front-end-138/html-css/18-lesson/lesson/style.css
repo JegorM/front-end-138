@@ -1,0 +1,75 @@
+h1 {
+  color: blue;
+}
+
+:root {
+  --main-font: "Montserrat";
+  --collor-button: #f78d2e;
+  --color-border: #f78d2e;
+  --coor-hover: ;
+}
+
+* body {
+  font-family: var(--main-font);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.5s;
+}
+.button--secondary {
+  background-color: var(--collor-button);
+  border: 1px solid var(--color-border);
+  color: white;
+}
+.button--secondary:hover {
+  color: #f78d2e;
+  background-color: white;
+}
+.button--secondary:active {
+  background-color: black;
+}
+.button--el {
+  padding: 24px 40px;
+}
+.button__l {
+  padding: 16px 40px;
+}
+.button__m {
+  padding: 12px 32px;
+}
+.button__s {
+  padding: 8px 32px;
+}
+.button__es {
+  padding: 4px 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+.card {
+  padding: 30px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(44, 9, 121) 45%, rgb(0, 212, 255) 100%);
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

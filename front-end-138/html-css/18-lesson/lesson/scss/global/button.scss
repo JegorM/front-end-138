@@ -1,0 +1,47 @@
+:root {
+  --main-font: "Montserrat";
+  --collor-button: #f78d2e;
+  --color-border: #f78d2e;
+  --coor-hover: ;
+}
+
+*body {
+  font-family: var(--main-font);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.5s;
+
+  &--secondary {
+    background-color: var(--collor-button);
+    border: 1px solid var(--color-border);
+    color: white;
+    &:hover {
+      color: #f78d2e;
+      background-color: white;
+    }
+    &:active {
+      background-color: black;
+    }
+  }
+  &--el {
+    padding: 24px 40px;
+  }
+
+  &__l {
+    padding: 16px 40px;
+  }
+  &__m {
+    padding: 12px 32px;
+  }
+  &__s {
+    padding: 8px 32px;
+  }
+  &__es {
+    padding: 4px 24px;
+  }
+}

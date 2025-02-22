@@ -1,0 +1,32 @@
+//global
+@use "./global/main.scss";
+@use "./global/button.scss" as *;
+//varieable
+@use "./variable/variables";
+@use "./variable/media" as *;
+
+//Page
+@use "./mixin/decoration-bg.scss" as dec;
+// .hero {
+//   &__title {
+//     color: red;
+
+//     &:hover {
+//       color: black;
+//     }
+
+//     &:before {
+//       content: "123";
+//     }
+
+//     @media (max-width: $tablet) {
+//       color: aquamarine;
+//     }
+//   }
+//   &__text {
+//     background-color: blue;
+//   }
+// }
+.card {
+  @include dec.main;
+}

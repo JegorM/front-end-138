@@ -1,0 +1,16 @@
+{
+  "name": "home-work",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node static-file-server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "suss": "^0.3.3"
+  }
+}
