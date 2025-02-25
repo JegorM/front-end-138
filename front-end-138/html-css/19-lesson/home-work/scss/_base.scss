@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.wraapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1170px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 570px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 35px 35px 16px 35px;
+  &-profile {
+    padding-bottom: 105px;
+  }
+}
+
+.input-group {
+  display: flex;
+  gap: 11px;
+}
+.input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.form-group {
+  display: flex;
+  gap: 20px;
+}
+.select-label {
+  &:active {
+    border-color: var(--color-input-cheked);
+  }
+}
+.fotter__singup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}

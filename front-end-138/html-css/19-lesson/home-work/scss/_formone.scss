@@ -1,0 +1,38 @@
+.bold-radio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-select {
+  appearance: none;
+  position: relative;
+  padding: 1px 10px;
+  background-image: url("../assets/images/form-one/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  cursor: pointer;
+  appearance: none;
+
+  &:focus {
+    border-color: var(--color-input-cheked);
+  }
+
+  &:hover {
+    border-color: var(--color-input-cheked);
+  }
+}
+
+.form-note {
+  max-width: 410px;
+  padding: 0px 10px;
+
+  &-clue {
+    padding: 0px;
+  }
+}
+
+.form-line {
+  object-fit: contain;
+}

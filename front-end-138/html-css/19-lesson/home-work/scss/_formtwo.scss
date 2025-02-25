@@ -1,0 +1,65 @@
+.user {
+  display: flex;
+  gap: 20px;
+}
+.user-foto {
+  max-width: 80px;
+}
+.user-functions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-change-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.photo-upload-size {
+  max-width: 140px;
+  max-height: 30px;
+}
+.button__trash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.icon-trash {
+  margin: 7px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-display {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.camera-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

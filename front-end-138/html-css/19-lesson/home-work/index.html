@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.scss" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="wraapper">
+      <selection class="header">
+        <div class="container">
+          <form class="form" action="/submit_form" method="post">
+            <h2 class="title">Create an Account</h2>
+            <div class="input-group">
+              <div class="input-item">
+                <label class="subtitle" for="">First Name</label>
+                <input class="inputs" type="text" />
+              </div>
+              <div class="input-item">
+                <label class="subtitle" for="">Last Name</label>
+                <input class="inputs" type="text" />
+              </div>
+            </div>
+            <div class="input-item">
+              <label class="subtitle" for="">E-mail</label>
+              <input class="inputs" type="email" />
+              <p class="form-note form-note-clue">
+                We'll never share your email with anyone else.
+              </p>
+            </div>
+            <div class="form-group">
+              <label class="subtitle bold-radio">
+                <input type="radio" name="choice" value="option1" />
+                <span class="circle"></span>
+                Male
+              </label>
+              <label class="subtitle bold-radio">
+                <input type="radio" name="choice" value="option1" />
+                <span class="circle"></span>
+                Female
+              </label>
+            </div>
+            <div class="input-group">
+              <div class="input-item">
+                <label class="subtitle select-label">Country</label>
+                <select class="inputs plaplaceholder-text custom-select">
+                  <option disabled selected>Select</option>
+                  <option value="us">United States</option>
+                  <option value="de">Germany</option>
+                  <option value="fr">France</option>
+                </select>
+              </div>
+              <div class="input-item">
+                <label class="subtitle" for="">City</label>
+                <input class="inputs" type="text" />
+              </div>
+            </div>
+            <div class="fotter__singup">
+              <button class="button">Sign Up</button>
+              <p class="form-note">
+                By clicking the 'Sign Up' button, you confirm that you accept
+                our <a class="link" href="">Terms of Use</a> and
+                <a class="link" href="">Privacy Policy</a>.
+              </p>
+              <img
+                class="form-line"
+                src="./assets/images/form-one/line-form1.svg"
+                alt=""
+              />
+              <div class="form-group">
+                <p class="redirect">Have an account?</p>
+                <a class="login" href="">Log In</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </selection>
+      <selection class="hero">
+        <div class="container">
+          <form class="form form-profile">
+            <h2 class="title">Profile</h2>
+            <div class="user">
+              <img
+                class="user-foto"
+                src="./assets/images/form-two/Image.png"
+                alt=""
+              />
+              <div class="user-functions">
+                <div class="user-change-foto">
+                  <label class="inputs photo-upload-size">
+                    <input
+                      type="file"
+                      id="file-input"
+                      name="file"
+                      accept="image/*"
+                      class="file-input"
+                    />
+                    <input
+                      type="text"
+                      id="file-name"
+                      readonly
+                      class="file-display"
+                    />
+                    <span class="camera-icon">
+                      <!-- Иконка камеры -->
+                      <img
+                        src="./assets/images/form-two/Photo Camera.svg"
+                        alt=""
+                      />
+                    </span>
+                  </label>
+                  <button
+                    class="inputs button__trash"
+                    type="button"
+                    id="clear-file-btn"
+                  >
+                    <svg
+                      class="icon-trash"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M4.00001 12.6667C4.00001 13.4 4.60001 14 5.33334 14H10.6667C11.4 14 12 13.4 12 12.6667V4.66667H4.00001V12.6667ZM12.6667 2.66667H10.3333L9.66668 2H6.33334L5.66668 2.66667H3.33334V4H12.6667V2.66667Z"
+                        fill="#969696"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <p class="form-note form-note-clue">Up to 1 MB (300x300 px)</p>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-item">
+                <label class="subtitle" for="">First Name</label>
+                <input class="inputs" type="text" />
+              </div>
+              <div class="input-item">
+                <label class="subtitle" for="">Last Name</label>
+                <input class="inputs" type="text" />
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-item">
+                <label class="subtitle select-label">Country</label>
+                <select class="inputs plaplaceholder-text custom-select">
+                  <option disabled selected>Select</option>
+                  <option value="us">United States</option>
+                  <option value="de">Germany</option>
+                  <option value="fr">France</option>
+                </select>
+              </div>
+              <div class="input-item">
+                <label class="subtitle" for="">City</label>
+                <input class="inputs" type="text" />
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-item">
+                <label class="subtitle" for="">Zip Code</label>
+                <input class="inputs" type="number" />
+              </div>
+              <div class="input-item">
+                <label class="subtitle" for="">Phone Number</label>
+                <input class="inputs" type="number" />
+              </div>
+            </div>
+            <button class="button button-second">Update</button>
+          </form>
+        </div>
+      </selection>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
