@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --color-header: #cce1d7;
+  --collor-text: #000d07;
+  --color-button: #006c35;
+  --color-text-button: #ffffff;
+
+  --main-font: "Inter";
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--collor-text);
+}
+
+.text {
+  color: var(--collor-text);
+}

@@ -1,0 +1,22 @@
+@media (min-width: 991px) {
+  .nav-button {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav__panel {
+    display: none;
+  }
+
+  .logo {
+    max-width: 138px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+  }
+}

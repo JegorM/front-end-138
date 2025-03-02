@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: var(--color-header);
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+}
