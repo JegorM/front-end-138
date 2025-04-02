@@ -1,8 +1,10 @@
 @use "./reset";
 
+@use "./variables" as all;
+
 @use "./global";
 
-@use "./variables";
+@use "./common/sidebar";
 
 @use "./common/header";
 

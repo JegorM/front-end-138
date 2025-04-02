@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 44px 40px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 87px;
+}

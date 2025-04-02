@@ -1,0 +1,16 @@
+//global
+@use "./global/reset";
+@use "./global/global";
+
+//variables
+@use "./variable/fonts";
+@use "./variable/colors";
+@use "./variable/media";
+
+//common
+@use "./common/header";
+@use "./common/footer";
+
+//component
+@use "./component/button";
+@use "./component/cartСounter.scss";

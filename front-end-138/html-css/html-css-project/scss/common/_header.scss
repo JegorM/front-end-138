@@ -1,0 +1,39 @@
+.container--header {
+  display: flex;
+  gap: 87px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background: transparent; // Убираем фон, если он не нужен
+  border: 2px solid #5c5c5c;
+  border-radius: 8px;
+  width: 555px;
+  height: 52px;
+  padding: 0 16px;
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 8px; // Отступ от иконки до текста
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: #ccc;
+    font-size: 16px;
+    outline: none;
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+}
+
+.header-buttons {
+  display: flex;
+  gap: 24px;
+}

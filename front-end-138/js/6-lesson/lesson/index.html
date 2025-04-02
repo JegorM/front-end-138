@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.scss" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <select name="" id="sel">
+      <!-- <option value="User1">User1</option>
+      <option value="User2">User2</option>
+      <option value="User3">User3</option> -->
+    </select>
+    <button id="btn">Searsh</button><br />
+    <input class="inp1" type="text" placeholder="login" /><br />
+    <!-- <input type="email" placeholder="Email" /> <br /> -->
+    <input class="inp2" type="text" placeholder="password" /><br />
+    <button class="btnn">Registration</button><br />
+    <span class="error"></span><br />
+    <select class="language" name="" id=""></select>
+    <span> Users: <span class="users">0</span> </span>
+    <!-- завдання на вивід користувача: якщо це жінка woman.jpg, якщо чоловік то man.jpg,
+		 в "user img виводити згідно з вибраним гендором аватарки, якщо нічого не введено виводити якусь іншу картинку" -->
+    <h2>Instagram</h2>
+    <!-- Завдання: зробити пустий масив, 
+		 додавати в наш масив все що користувач ввів у поля у вигляды об'єкту,
+		  пароль повинен співпадати, якщо ні то вививодите error,
+			 виводити після натискання на кнопку "Reset" всіх користувачів у ".out", як у прикладі,
+			  в "user-out" виводити довжину масиву користувачів  -->
+    <input type="text" placeholder="name" /><br />
+    <input type="data" placeholder="age" /><br />
+    <input type="email" placeholder="email" /><br />
+    <input type="number" placeholder="Phone Number" /><br />
+    <select name="" id="">
+      <option value="">--</option>
+      <option value="m">Man</option>
+      <option value="w">Woman</option></select
+    ><br />
+    <p>пароль повинен співпадати</p>
+    <input type="password" placeholder="password" /><br />
+    <input type="password" /><br />
+    <!-- /*зробити перевірку на співпадання пароля*/ -->
+    <button class="btn">Registr</button>
+    <div class="user">зараз зареєстровано: <span class="user-out"></span></div>
+    <h2>Історії</h2>
+    <button>Reset</button>
+    <div class="out">
+      <div class="item">
+        <img src="" alt="avatar" />
+        <h5>Ім'я: sasha</h5>
+        <ul>
+          <li>років: 21</li>
+          <li>email: sdfgsfdji@gmail.com</li>
+          <li>телефон: +49000000000</li>
+          <li>стать: Чоловік</li>
+        </ul>
+      </div>
+    </div>
+    <!-- екстра: зробити login page, реалізувати логін, у нас є 2 інпути Login або Email
+		 якщо співпадає то ми виводимо юзера як окремого користувача
+		 зробити можливість змінити його данні -->
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
