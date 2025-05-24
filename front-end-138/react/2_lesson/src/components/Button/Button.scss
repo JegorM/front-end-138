@@ -1,0 +1,38 @@
+.button {
+  --bg-button-color: blue;
+  --bg-primery: green;
+  --bg-button-primery-color-hover: rgb(32, 10, 131);
+  --bg-secondary: yellow;
+  --bg-button-secondary-color-hover: rgb(75, 75, 49);
+
+  background-color: var(--bg-button-color);
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+
+  &--primery {
+    background-color: var(--bg-primery);
+  }
+  &--primery:hover {
+    background-color: var(--bg-button-primery-color-hover);
+  }
+  ///////////////////////////
+  &--secondary {
+    background-color: var(--bg-secondary);
+  }
+  &--secondary:hover {
+    background-color: var(--bg-button-secondary-color-hover);
+  }
+  /////////////////////////////
+  &--size--m {
+    font-size: 20px;
+  }
+  &--size--s {
+    font-size: 15px;
+  }
+}
+
+.hero__button {
+  // background-color: aquamarine;
+}

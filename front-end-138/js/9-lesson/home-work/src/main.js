@@ -1,0 +1,53 @@
+const inp = document.querySelector(".inp")
+const btn = document.querySelector(".btn")
+const countOut = document.querySelector(".count-out")
+const out = document.querySelector(".out")
+
+let count = 0
+
+btn.addEventListener("click", () => {
+  if (inp.value) {
+    out.append(createLi(inp.value))
+    countOut.innerHTML = ++count
+  } else {
+    console.log("Error input")
+  }
+})
+
+function createLi(value) {
+  const li = document.createElement("li")
+  li.classList.add("list__item")
+  const check = document.createElement("input")
+  check.type = "checkbox"
+  check.addEventListener("change", () => {
+    if (check.checked) {
+      text.classList.add("red")
+      countOut.innerHTML = --count
+    } else {
+      text.classList.remove("red")
+      countOut.innerHTML = ++count
+    }
+  })
+
+  const text = document.createElement("span")
+  text.innerHTML = value
+  text.setAttribute("contenteditable", "true")
+
+  const delButton = document.createElement("span")
+  delButton.innerHTML = "❌"
+  delButton.addEventListener("click", () => {
+    if (check.checked) {
+      li.remove()
+    } else {
+      li.remove()
+      countOut.innerHTML = --count
+    }
+  })
+
+  const editButton = document.createElement("span")
+  editButton.innerHTML = "✏️"
+
+  li.append(check, text, editButton, delButton)
+
+  return li
+}
